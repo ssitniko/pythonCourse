@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e6dd2ad-a0e0-4467-a0a9-0b9fa90215c6" name="Changes" comment="" />
+    <list default="true" id="8e6dd2ad-a0e0-4467-a0a9-0b9fa90215c6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/lesson2hw.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson2hwcopy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,11 +34,19 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.lesson2hw.executor": "Run",
+    "Python.lesson2hwcopy.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "new__branch",
-    "last_opened_file_path": "C:/Users/Lenovo/Desktop/pythonCourse/monthOne"
+    "last_opened_file_path": "C:/Users/Lenovo/Desktop/pythonCourse/monthOne",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Lenovo\Desktop\pythonCourse\monthOne" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>

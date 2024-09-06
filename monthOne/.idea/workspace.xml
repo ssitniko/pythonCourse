@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8e6dd2ad-a0e0-4467-a0a9-0b9fa90215c6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lesson2hw.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson2hwcopy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3hw.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson2hw.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson2hw.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,10 +37,12 @@
   "keyToString": {
     "Python.lesson2hw.executor": "Run",
     "Python.lesson2hwcopy.executor": "Run",
+    "Python.lesson3.executor": "Run",
+    "Python.lesson3hw.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "new__branch",
     "last_opened_file_path": "C:/Users/Lenovo/Desktop/pythonCourse/monthOne",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+    "settings.editor.selected.configurable": "preferences.editor"
   }
 }]]></component>
   <component name="RecentsManager">

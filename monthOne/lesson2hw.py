@@ -40,6 +40,5 @@ elif birthday >= 21 and birthday < 32 and birthmonth == 1 or birthday <= 19 and 
 
 elif birthday >= 20 and birthday < 30 and birthmonth == 2 or birthday <= 20 and birthday > 0 and birthmonth == 3:
     print('February-March birth')
-
 else:
     print('Please enter correct Birthday or Birthmonth')

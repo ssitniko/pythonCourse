@@ -1,50 +1,58 @@
 
-some_word = input('enter any word in Latin or Cyrillic: ')
-print(f'Слово: {some_word}')
-print(f'Количество букв: {len(some_word)}')
 
-vowels = 'а', 'у' 'о' 'и' 'ы', 'я', 'ю', 'е', 'ё'
-consonants_count = 0
-vowels_count  = 0
-for i in some_word:
-    if i not in vowels:
-        consonants_count += 1
-    elif i in vowels:
-            vowels_count +=1
+while True:
+    message = input('enter any word in Latin or Cyrillic: ')
+    if message == 'quit':
+        break
+    letter_quantity = len(message)
+    print(f'Слово: {message}')
+    print(f'Количество букв: {letter_quantity}')
 
-print(f'Согласных букв: {consonants_count} ')
-print(f'Гласных букв:{vowels_count} ')
+    vowels_latin = 'a', 'e', 'i', 'o', 'u', 'y'
+    vowels_cyrilic = 'а', 'у' 'о' 'и' 'ы', 'я', 'ю', 'е', 'ё'
 
+    cyrillic = 'а', 'б', 'в', 'г', 'д', 'е', 'ё', 'ж', 'и', 'й', 'к', 'л', 'м', 'н', 'о', 'п', 'р', 'с', 'т', 'у', 'ф', 'х', 'ц', 'ч', 'ш', 'щ', 'ъ', 'ы', 'ь', 'э', 'ю', 'я'
+    latin = 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'
 
 
+    consonants_count_c = 0
+    vowels_count_c  = 0
+
+    consonants_count_l = 0
+    vowels_count_l = 0
+
+    if message in cyrillic:
+        for item_c in message:
+            if item_c not in vowels_cyrilic:
+                consonants_count_c += 1
+            else:
+                vowels_count_c +=1
+
+        percentage_consonants_c = round((consonants_count_c / letter_quantity * 100), 2)
+        percentage_vowels_c = round((vowels_count_c / letter_quantity * 100), 2)
+
+        print(f'Согласных букв: {consonants_count_c} ')
+        print(f'Гласных букв:{vowels_count_c} ')
+        print(f'Гласные/Согласные {percentage_vowels_c}/{percentage_consonants_c}')
+
+    else:
+        for item_l in message:
+            if item_l not in vowels_latin:
+                consonants_count_l += 1
+            else:
+                vowels_count_l +=1
+
+        percentage_consonants_l = round((consonants_count_l / letter_quantity * 100), 2)
+        percentage_vowels_l = round((vowels_count_l / letter_quantity * 100), 2)
+
+        print(f'Согласных букв: {consonants_count_l} ')
+        print(f'Гласных букв:{vowels_count_l} ')
+        print(f'Гласные/Согласные {percentage_vowels_l}/{percentage_consonants_l}')
 
 
-# while counter <= 50:
-#     if counter == 40:
-#         break
-#     a_word = input('enter any word in Latin or Cyrillic: ')
-#     for i in a_word:
-#         if type(i) == i.vowels:
-#
-#
-# print(f'количество букв: {count}')
 
 
-#     print(a_word)
-#     count = 0
-#     for i in a_word:
-#         i = count + 1
-#         print(i)
 
 
-        # temperature = int(temperature)
-        # if temperature >= -30 and temperature <= 0:
-        #     print('холодно')
-        # elif temperature >= 1 and temperature <= 15:
-        #     print('прохладно')
-        # elif temperature >  = 16 and temperature <= 25:
-        #     print('прохладно')
-        # elif temperature >= 26 and temperature <= 40:
-        #     print('тепло')
-        # else:
-        #     print(f'несовместима с жизнью температура  {temperature}')
+
+

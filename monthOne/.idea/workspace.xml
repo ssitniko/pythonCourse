@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8e6dd2ad-a0e0-4467-a0a9-0b9fa90215c6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lesson_4.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson3.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson3hw.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson3hw.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_4.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_4.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,20 +32,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.lesson2hw.executor&quot;: &quot;Run&quot;,
-    &quot;Python.lesson2hwcopy.executor&quot;: &quot;Run&quot;,
-    &quot;Python.lesson3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.lesson3hw.executor&quot;: &quot;Run&quot;,
-    &quot;Python.lesson3hw_cop.executor&quot;: &quot;Run&quot;,
-    &quot;Python.lesson3hw_copy.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;new__branch&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Lenovo/Desktop/pythonCourse/monthOne&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.lesson2hw.executor": "Run",
+    "Python.lesson2hwcopy.executor": "Run",
+    "Python.lesson3.executor": "Run",
+    "Python.lesson3hw.executor": "Run",
+    "Python.lesson3hw_cop.executor": "Run",
+    "Python.lesson3hw_copy.executor": "Run",
+    "Python.lesson_4.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "new__branch",
+    "last_opened_file_path": "C:/Users/Lenovo/Desktop/pythonCourse/monthOne",
+    "settings.editor.selected.configurable": "preferences.editor"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Lenovo\Desktop\pythonCourse\monthOne" />

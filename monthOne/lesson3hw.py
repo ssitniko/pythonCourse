@@ -8,11 +8,11 @@ while True:
     print(f'Слово: {message}')
     print(f'Количество букв: {letter_quantity}')
 
-    vowels_latin = 'a', 'e', 'i', 'o', 'u', 'y'
-    vowels_cyrilic = 'а', 'у' 'о' 'и' 'ы', 'я', 'ю', 'е', 'ё'
+    vowels_latin = 'a e i o u y'
+    vowels_cyrilic = 'а у о и ы я ю е ё'
 
-    cyrillic = 'а', 'б', 'в', 'г', 'д', 'е', 'ё', 'ж', 'и', 'й', 'к', 'л', 'м', 'н', 'о', 'п', 'р', 'с', 'т', 'у', 'ф', 'х', 'ц', 'ч', 'ш', 'щ', 'ъ', 'ы', 'ь', 'э', 'ю', 'я'
-    latin = 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'
+    cyrillic = 'а б в г д е ё ж и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я'
+    latin = 'a b c d e f g h i j k l m n o p q r s t u v w x y z'
 
 
     consonants_count_c = 0

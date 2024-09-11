@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="45bfc0fd-d748-49fe-b22e-2d9bb5c3707b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/monthOne/lesson_4_hw.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monthOne/lesson4_hw.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monthOne/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/monthOne/lesson2.py" beforeDir="false" afterPath="$PROJECT_DIR$/monthOne/lesson2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/monthOne/lesson_4_hw.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,11 +39,20 @@
     "Python.lesson1.executor": "Run",
     "Python.lesson2.executor": "Run",
     "Python.lesson_4_hw.executor": "Run",
+    "Python.lesson_4_hw_cop.executor": "Run",
+    "Python.lesson_4_hwcopy.executor": "Run",
+    "Python.test.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "new__branch",
+    "last_opened_file_path": "C:/Users/ThinkPad/PycharmCourse/pythonCourse/monthOne",
     "settings.editor.selected.configurable": "preferences.editor"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ThinkPad\PycharmCourse\pythonCourse\monthOne" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>

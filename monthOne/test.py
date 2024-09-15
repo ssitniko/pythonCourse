@@ -25,7 +25,10 @@
 # print(a_range)
 # print(z_list)
 
-x = range(100)
-y = tuple(x)
-print(y[5])
-print(y.len())
+set_a = {'red', 3, 5, 1, 8}
+set_b = {2, 3}
+set_c = {2, 3}
+
+
+if 'red' in set_a:
+    print('Yes')

@@ -48,7 +48,7 @@ print(beshbarmak.difference(plov))
 # погуглить работу issubset
 
 # numbers1 = [1, 2, 3, 4, 2, 1, 3, 5]
-# numbers2 = (1, 2, 3, 4, 2, 1, 3, 50)
+# numbers2 = (1, 2, 3, 4, 2, 1, 3, 5)
 # numbers3 = {1, 2, 3, 4, 2, 1, 3, 5}
 # print(type(numbers3))
 

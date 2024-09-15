@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="45bfc0fd-d748-49fe-b22e-2d9bb5c3707b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/monthOne/lesson_5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/monthOne/lesson_5hw.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/monthOne/lesson1hw.py" beforeDir="false" afterPath="$PROJECT_DIR$/monthOne/lesson1hw.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/monthOne/lesson_5.py" beforeDir="false" afterPath="$PROJECT_DIR$/monthOne/lesson_5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/monthOne/lesson_5hw.py" beforeDir="false" afterPath="$PROJECT_DIR$/monthOne/lesson_5hw.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/monthOne/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/monthOne/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,22 +34,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.lesson1.executor": "Run",
-    "Python.lesson2.executor": "Run",
-    "Python.lesson_4_hw.executor": "Run",
-    "Python.lesson_4_hw_cop.executor": "Run",
-    "Python.lesson_4_hwcopy.executor": "Run",
-    "Python.lesson_5.executor": "Run",
-    "Python.lesson_5hw.executor": "Run",
-    "Python.test.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "new__branch",
-    "last_opened_file_path": "C:/Users/ThinkPad/PycharmCourse/pythonCourse/monthOne",
-    "settings.editor.selected.configurable": "preferences.editor"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.lesson1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson_4_hw.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson_4_hw_cop.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson_4_hwcopy.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson_5.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson_5hw.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;new__branch&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ThinkPad/PycharmCourse/pythonCourse/monthOne&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ThinkPad\PycharmCourse\pythonCourse\monthOne" />
@@ -73,16 +72,5 @@
       <updated>1725097321925</updated>
     </task>
     <servers />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/monthOne/lesson_5hw.py</url>
-          <line>22</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

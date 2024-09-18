@@ -1,6 +1,7 @@
 
 movies = dict()
 ratings = dict()
+find = True
 
 def movie_rating (movie, name, rating ):
     movies[movie] = ratings
@@ -8,18 +9,34 @@ def movie_rating (movie, name, rating ):
     return movies
 
 while True:
-    movies_input = input('Введите название фильма: ').title()
-    if movies_input in movies:
-        print('This movie already exists!')
-    name_input = input('Введите ваше имя: ').title()
+    if find:
+        while True:
+            movies_input = input('Введите название фильма: ').title()
+            if movies_input in movies:
+                print('This movie already exists!')
+                continue
+            else:
+                break
 
-    if name_input:
-        for k, v in movies.items():
-            if name_input in v:
-                print('This name already exists, please enter another name')
-            continue
+        while True:
+            name_input = input('Введите ваше имя: ').title()
+            name_find = False
+            for k, v in movies.items():
+                if name_input in v:
+                    print('This name already exists')
+                    name_find = True
 
-    rating_input = input('Введите оценку в диапазоне от 1 до 10: ')
+            if not name_find:
+                break
+
+        while True:
+            rating_input = int(input('Введите оценку в диапазоне от 1 до 10: '))
+            if rating_input not in range(11):
+                print('Оценка не в диапазоне от 1 до 10!')
+                continue
+            else:
+                break
+
     movie_rating(movies_input, name_input, rating_input)
     print('Movie added successfully')
 
@@ -32,9 +49,3 @@ while True:
 
 
 
-# for movie in movies:
-    #     if movies_input in movies:
-    #         print('Такой фильм уже есть')
-    #     else:
-    #         movies[movies_input] = {'rating': 10}
-    #     print(movies)

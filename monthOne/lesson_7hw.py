@@ -38,7 +38,7 @@ nearest_number(num_list, 10)
 # print(filtered_list_1)
 
 
-# 3  
+# 3
 # def get_element(iterable, index):
 #     return iterable[index]
 #

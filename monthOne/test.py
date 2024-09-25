@@ -1,15 +1,14 @@
-# список чисел
-numbers = [1, 2, 4, 5, 7, 8, 10, 11]
 
-# функция, которая проверяет числа
-def filter_odd_num(in_num):
-    if(in_num % 2) == 0:
-        return True
-    else:
-        return False
+def guess_fun(a_range=0, hint=''):
+    a_set = set(range(1,a_range))
 
-# Применение filter() для удаления нечетных чисел
-out_filter = filter(filter_odd_num, numbers)
+    print(a_set)
+    guess = len(a_set) // 2 + 1
+    a_index = a_set[guess]
+    print(guess)
+    print(f'Вы загадали число {guess}?')
+    hint_inp = input('Введите одну из подсказок: да, больше или меньше: ')
+    if hint_inp == 'больше':
+        a_set = set(range(a_set))
 
-print("Тип объекта out_filter: ", type(out_filter))
-print(list(filter(filter_odd_num, numbers)))
+guess_fun(100)

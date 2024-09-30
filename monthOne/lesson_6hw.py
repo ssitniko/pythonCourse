@@ -3,6 +3,13 @@ movies = dict()
 ratings = dict()
 find = True
 
+def add_movie (add_inp, movies_dict):
+    if add_inp in movies_dict:
+        print('This movie already exist!')
+    else:
+        movies_dict[add_inp] = dict()
+
+
 def movie_rating (movie, name, rating ):
     movies[movie] = ratings
     movies[movie][name] = rating
